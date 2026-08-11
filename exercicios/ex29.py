@@ -1,0 +1,8 @@
+projetos = ["website", "jogo", "análise de dados", None, "aplicativo móvel"]
+
+for projeto in projetos:
+    if projeto is None:
+        print("Projeto não definido.")
+    else:
+        print(f"Trabalhando no projeto: {projeto}")
+        
